@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(0, 34, 129);
+}
+.container{
+    display: flex;
+    border: 2px solid black;
+    position: relative;
+    width: 55vw;
+    margin: 30px auto;
+    padding: 50px 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.role{
+    position: absolute;
+    left: 47%;
+    top: -30px;
+    background: white;
+    padding: 0 10px;
+    text-align: center;
+}
+.line{
+    width:2px;
+    background-color: black;
+    margin: 5px 0;
+}
+.workex{
+    width: 55%;
+    padding: 15px;
+}
+.section-a{
+    width: 45%;
+    padding: 15px;
+}
+.section-a > div, .exp,.exp>h3{
+    margin: 7px 0;
+}
+.acad{
+    margin-top: 100px;
+}
+.company{
+    font-weight: 400;
+}
