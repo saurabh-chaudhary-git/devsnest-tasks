@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #cbcbcb; 
+}
+#quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+#question{
+    font-size: 1.5rem;
+}
