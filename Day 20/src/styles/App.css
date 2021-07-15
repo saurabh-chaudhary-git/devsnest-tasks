@@ -1,0 +1,17 @@
+.App {
+  box-sizing: border-box;
+}
+.head {
+  text-align: center;
+  font-family: cursive;
+  font-size: 2rem;
+  background: coral;
+}
+.container {
+  width: 520px;
+  height: 520px;
+  margin: 50px auto;
+  background-color: cornflowerblue;
+  padding: 15px;
+  overflow: scroll;
+}
